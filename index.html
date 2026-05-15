@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>BusinessFD</title>
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background:#1c1c1c;
+            color:#f9f7f3;
+            font-family:'Inter', sans-serif;
+            min-height:100vh;
+            overflow-x:hidden;
+        }
+
+        .page{
+            width:100%;
+            min-height:100vh;
+            display:flex;
+            flex-direction:column;
+            justify-content:space-between;
+            padding:70px 55px 30px 55px;
+        }
+
+        /* =========================
+           HERO
+        ========================= */
+
+        .hero{
+            max-width:950px;
+            margin-top:80px;
+        }
+
+        h1{
+            font-family:'Lora', serif;
+            font-size:110px;
+            font-weight:400;
+            line-height:1;
+            letter-spacing:-3px;
+            margin-bottom:40px;
+        }
+
+        .gold{
+            color:#b8960c;
+        }
+
+        .subtitle{
+            font-size:33px;
+            line-height:1.3;
+            color:#e4e0d8;
+            max-width:1000px;
+            margin-bottom:40px;
+            font-weight:300;
+        }
+
+        .tagline{
+            color:#c9a227;
+            font-size:22px;
+            font-weight:400;
+            letter-spacing:0.2px;
+        }
+
+        /* =========================
+           CONTACT
+        ========================= */
+
+        .contact{
+            margin-top:180px;
+            max-width:700px;
+        }
+
+        .line{
+            width:45px;
+            height:3px;
+            background:#c9a227;
+            margin-bottom:40px;
+        }
+
+        .contact p{
+            font-size:22px;
+            line-height:1.8;
+            color:#f0ece4;
+            font-weight:300;
+        }
+
+        .email{
+            margin-top:40px;
+        }
+
+        .email a{
+            color:#c9a227;
+            text-decoration:none;
+            font-size:24px;
+            transition:0.3s;
+        }
+
+        .email a:hover{
+            opacity:0.8;
+        }
+
+        /* =========================
+           FOOTER
+        ========================= */
+
+        footer{
+            margin-top:120px;
+            padding-top:30px;
+            border-top:1px solid #3b3b3b;
+            font-size:13px;
+            color:#8f8f8f;
+            letter-spacing:0.4px;
+        }
+
+        /* =========================
+           MOBILE
+        ========================= */
+
+        @media(max-width:900px){
+
+            .page{
+                padding:40px 30px;
+            }
+
+            .hero{
+                margin-top:40px;
+            }
+
+            h1{
+                font-size:72px;
+                letter-spacing:-1px;
+            }
+
+            .subtitle{
+                font-size:22px;
+            }
+
+            .tagline{
+                font-size:18px;
+                line-height:1.6;
+            }
+
+            .contact{
+                margin-top:120px;
+            }
+
+            .contact p{
+                font-size:19px;
+            }
+
+            .email a{
+                font-size:21px;
+                word-break:break-word;
+            }
+
+            footer{
+                font-size:11px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="page">
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <h1>
+                Business<span class="gold">FD</span>
+            </h1>
+
+            <div class="subtitle">
+                Fractional CFO services for investor-backed startups and growth-stage businesses.
+            </div>
+
+            <div class="tagline">
+                Senior finance leadership. Embedded. Automated. Yours.
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact">
+
+            <div class="line"></div>
+
+            <p>
+                Full site launching shortly. In the meantime,
+                <br>
+                to discuss an engagement:
+            </p>
+
+            <div class="email">
+                <a href="mailto:hello@businessfd.co.uk">
+                    hello@businessfd.co.uk
+                </a>
+            </div>
+
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            A trading name of Finance Insight Ltd &nbsp;&nbsp; • &nbsp;&nbsp;
+            Registered in England & Wales. #12304658
+        </footer>
+
+    </div>
+
+</body>
+</html>
