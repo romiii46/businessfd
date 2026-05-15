@@ -1,13 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>BusinessFD</title>
 
-    <!-- FAVICON -->
     <link rel="icon" type="image/png" href="favicon.png">
 
-    <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
     <style>
@@ -24,21 +25,15 @@
             font-family:'Inter', sans-serif;
             min-height:100vh;
             overflow-x:hidden;
-            letter-spacing:-0.2px;
         }
 
         .page{
-            width:100%;
-            min-height:100vh;
-            display:flex;
-            flex-direction:column;
-            justify-content:space-between;
             padding:45px 55px 25px 55px;
         }
 
         .hero{
-            max-width:1100px;
             margin-top:40px;
+            max-width:1000px;
         }
 
         h1{
@@ -47,8 +42,7 @@
             font-weight:400;
             line-height:1;
             letter-spacing:-4px;
-            margin-bottom:40px;
-            color:#1c1c1c;
+            margin-bottom:35px;
         }
 
         .gold{
@@ -67,8 +61,6 @@
         .tagline{
             color:#c19a2b;
             font-size:23px;
-            font-weight:400;
-            letter-spacing:0.2px;
         }
 
         .contact{
@@ -90,15 +82,9 @@
             font-weight:300;
         }
 
-        .email-inline a{
+        .contact a{
             color:#c19a2b;
             text-decoration:none;
-            margin-left:8px;
-            transition:0.3s;
-        }
-
-        .email-inline a:hover{
-            opacity:0.75;
         }
 
         footer{
@@ -107,7 +93,6 @@
             border-top:1px solid #d8d2c8;
             font-size:13px;
             color:#777777;
-            letter-spacing:0.4px;
         }
 
         @media(max-width:900px){
@@ -116,48 +101,70 @@
                 padding:35px 25px 20px 25px;
             }
 
-            .hero{
-                margin-top:20px;
-            }
-
             h1{
                 font-size:72px;
                 letter-spacing:-2px;
-                margin-bottom:25px;
             }
 
             .subtitle{
                 font-size:24px;
-                margin-bottom:14px;
             }
 
             .tagline{
                 font-size:18px;
-                line-height:1.6;
-            }
-
-            .contact{
-                margin-top:70px;
             }
 
             .contact p{
                 font-size:19px;
-                line-height:1.7;
             }
 
-            .email-inline a{
-                display:block;
-                margin-left:0;
-                margin-top:10px;
-                word-break:break-word;
-            }
-
-            footer{
-                font-size:11px;
-                line-height:1.8;
-                margin-top:50px;
-            }
         }
 
     </style>
+
 </head>
+
+<body>
+
+    <div class="page">
+
+        <section class="hero">
+
+            <h1>
+                Business<span class="gold">FD</span>
+            </h1>
+
+            <div class="subtitle">
+                Fractional CFO services for investor-backed startups and growth-stage businesses.
+            </div>
+
+            <div class="tagline">
+                Senior finance leadership. Embedded. Automated. Yours.
+            </div>
+
+        </section>
+
+        <section class="contact">
+
+            <div class="line"></div>
+
+            <p>
+                Full site launching shortly. In the meantime,
+                <br><br>
+                to discuss an engagement:
+                <a href="mailto:hello@businessfd.co.uk">
+                    hello@businessfd.co.uk
+                </a>
+            </p>
+
+        </section>
+
+        <footer>
+            A trading name of Finance Insight Ltd • Registered in England & Wales. #12304658
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
