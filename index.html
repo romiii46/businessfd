@@ -1,3 +1,4 @@
+```html id="4s8x9q"
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,7 +33,7 @@
             display:flex;
             flex-direction:column;
             justify-content:space-between;
-            padding:70px 55px 30px 55px;
+            padding:45px 55px 25px 55px;
         }
 
         /* =========================
@@ -41,7 +42,7 @@
 
         .hero{
             max-width:1100px;
-            margin-top:90px;
+            margin-top:40px;
         }
 
         h1{
@@ -63,7 +64,7 @@
             line-height:1.35;
             color:#2e2e2e;
             max-width:950px;
-            margin-bottom:40px;
+            margin-bottom:18px;
             font-weight:300;
         }
 
@@ -79,15 +80,15 @@
         ========================= */
 
         .contact{
-            margin-top:220px;
-            max-width:700px;
+            margin-top:90px;
+            max-width:900px;
         }
 
         .line{
             width:45px;
             height:3px;
             background:#c19a2b;
-            margin-bottom:40px;
+            margin-bottom:30px;
         }
 
         .contact p{
@@ -97,19 +98,14 @@
             font-weight:300;
         }
 
-        .email{
-            margin-top:40px;
-        }
-
-        .email a{
+        .email-inline a{
             color:#c19a2b;
             text-decoration:none;
-            font-size:26px;
-            font-weight:400;
+            margin-left:8px;
             transition:0.3s;
         }
 
-        .email a:hover{
+        .email-inline a:hover{
             opacity:0.75;
         }
 
@@ -118,8 +114,8 @@
         ========================= */
 
         footer{
-            margin-top:120px;
-            padding-top:30px;
+            margin-top:70px;
+            padding-top:25px;
             border-top:1px solid #d8d2c8;
             font-size:13px;
             color:#777777;
@@ -133,20 +129,22 @@
         @media(max-width:900px){
 
             .page{
-                padding:40px 28px;
+                padding:35px 25px 20px 25px;
             }
 
             .hero{
-                margin-top:40px;
+                margin-top:20px;
             }
 
             h1{
                 font-size:72px;
                 letter-spacing:-2px;
+                margin-bottom:25px;
             }
 
             .subtitle{
                 font-size:24px;
+                margin-bottom:14px;
             }
 
             .tagline{
@@ -155,21 +153,25 @@
             }
 
             .contact{
-                margin-top:120px;
+                margin-top:70px;
             }
 
             .contact p{
-                font-size:20px;
+                font-size:19px;
+                line-height:1.7;
             }
 
-            .email a{
-                font-size:21px;
+            .email-inline a{
+                display:block;
+                margin-left:0;
+                margin-top:10px;
                 word-break:break-word;
             }
 
             footer{
                 font-size:11px;
                 line-height:1.8;
+                margin-top:50px;
             }
         }
 
@@ -206,13 +208,12 @@
                 Full site launching shortly. In the meantime,
                 <br>
                 to discuss an engagement:
+                <span class="email-inline">
+                    <a href="mailto:hello@businessfd.co.uk">
+                        hello@businessfd.co.uk
+                    </a>
+                </span>
             </p>
-
-            <div class="email">
-                <a href="mailto:hello@businessfd.co.uk">
-                    hello@businessfd.co.uk
-                </a>
-            </div>
 
         </section>
 
@@ -226,3 +227,4 @@
 
 </body>
 </html>
+```
